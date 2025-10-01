@@ -1,1 +1,1 @@
-# ocs
+# OpenConnect VPN server Docker image
