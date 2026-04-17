@@ -37,5 +37,5 @@ jobs:
       - name: Commit all changed files back to the repository
         uses: stefanzweifel/git-auto-commit-action@v7
         with:
-          commit_message: "Automated Update. Git: ${{ steps.ocs-version.outputs.tag }})"
+          commit_message: "Automated Update. Git: ${{ steps.ocs-version.outputs.tag }}"
           file_pattern: '.ocs-version'
